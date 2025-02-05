@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sound_main_menu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":55.65217,
+  "name":"sound_main_menu",
+  "parent":{
+    "name":"ambient",
+    "path":"folders/Sounds/ambient.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sound_main_menu.wav",
+  "type":0,
+  "volume":1.0,
+}

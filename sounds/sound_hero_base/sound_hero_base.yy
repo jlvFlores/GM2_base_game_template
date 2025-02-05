@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sound_hero_base",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":72.048,
+  "name":"sound_hero_base",
+  "parent":{
+    "name":"ambient",
+    "path":"folders/Sounds/ambient.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sound_hero_base.mp3",
+  "type":0,
+  "volume":1.0,
+}

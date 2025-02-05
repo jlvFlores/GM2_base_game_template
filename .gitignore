@@ -1,0 +1,34 @@
+# GameMaker project files to ignore
+*.yyc
+*.yyu
+*.yyp.sublime-project
+*.yyp.sublime-workspace
+
+# Build and cache files
+/config/
+/output/
+/options/
+/extensions/
+_YYT_*
+
+# Compiled & exported files
+*.yyz
+*.win
+*.zip
+*.tar
+*.rar
+*.7z
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
