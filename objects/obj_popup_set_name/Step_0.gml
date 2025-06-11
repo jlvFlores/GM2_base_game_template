@@ -9,9 +9,9 @@ if (string_length(input_name) > input_max_length) {
 
 // Handle button click
 if (mouse_check_button_pressed(mb_left)) {
-    var clicked = instance_position(mouse_x, mouse_y, obj_button_parent);
+    var clicked = instance_position(mouse_x, mouse_y, obj_button);
     if (clicked != noone) {
-        if (clicked.menu_option == "accept") {
+        if (clicked.text_str == "accept") {
 			if (string_length(input_name) > 2) {
 				// TODO create function in seperate script and call it to set default player values
 				global.player_name = input_name;

@@ -23,9 +23,9 @@ if (mouse_check_button_released(mb_left)) {
 }
 
 if (mouse_check_button_pressed(mb_left)) {
-	var clicked = instance_position(mouse_x, mouse_y, obj_button_parent);
+	var clicked = instance_position(mouse_x, mouse_y, obj_button);
 	if (clicked != noone) {
-		switch (clicked.menu_option) {
+		switch (clicked.text_str) {
 			case "reset": reset_settings_data(); break;
 			case "back": instance_destroy(); break;
 		}

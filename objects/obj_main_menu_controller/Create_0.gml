@@ -1,14 +1,15 @@
-var buttons = [];
+//main menu
+var text_strings = [];
 
 if (global.has_save) {
-	buttons = [obj_button_continue, obj_button_new_game, obj_button_settings, obj_button_exit];
+	text_strings = ["continue", "new game", "settings", "exit"];
 } else {
-	buttons = [obj_button_new_game, obj_button_settings, obj_button_exit];
+	text_strings = ["new game", "settings", "exit"];
 }
 
 var y_start = room_height / 1.5;
 var y_step = 64;
 
-for (var i = 0; i < array_length(buttons); i++) {
-	instance_create_layer(room_width / 2, y_start + (i * y_step), "Instances", buttons[i]);
+for (var i = 0; i < array_length(text_strings); i++) {
+	create_button(room_width / 2, y_start + (i * y_step), "Instances", text_strings[i]);
 }

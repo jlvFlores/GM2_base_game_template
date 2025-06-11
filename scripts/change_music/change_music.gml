@@ -1,5 +1,5 @@
 /// @desc Changes the music currently playing.
-/// @param {sound} new_music - The sound asset to play as background music.
+/// @param {Asset.GMSound} new_music - The sound asset to play as background music.
 function change_music(new_music) {
 	if (current_music != new_music) {
 		if (current_music != noone) {

@@ -6,11 +6,11 @@ slider_width = 300;
 
 slider_grabbed = -1;
 
-var buttons = [obj_button_reset, obj_button_back];
+var text_strings = ["reset", "back"];
 
 var x_start = (room_width / 2) - 250;
 var x_step = 500;
 
-for (var i = 0; i < array_length(buttons); i++) {
-	instance_create_layer(x_start + (x_step * i) , room_height - 150, "Settings", buttons[i]);
+for (var i = 0; i < array_length(text_strings); i++) {
+	create_button(x_start + (x_step * i) , room_height - 150, "Settings", text_strings[i]);
 }
